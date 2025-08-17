@@ -1,0 +1,6 @@
+es:
+  hello: "hola mundo"
+  products:
+    index:
+      title: "Productos"
+      description: "Lista de productos disponibles en la tienda"
