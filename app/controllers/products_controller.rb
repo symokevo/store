@@ -44,6 +44,6 @@ class ProductsController < ApplicationController
 
   # Oly allow a list of trusted parameters through.
   def product_params
-    params.expect(product: [ :name, :description, :featured_image ])
+    params.expect(product: [ :name, :description, :featured_image, :inventory_cont ])
   end
 end
